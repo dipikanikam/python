@@ -1,0 +1,1 @@
+class Student:    def __init__(self):        self.name = 'dipika'        self.rollno = 21        self.marks = 101    def talk(self):        print("hello my name is:", self.name)        print("my  rollno is:", self.rollno)        print("my marks is:", self.marks)s = Student()print(s.name)print(s.rollno)print(s.marks)s.talk()

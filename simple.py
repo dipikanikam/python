@@ -1,0 +1,1 @@
+n=int(input("enter values :"))for i in range(n):        j = n -1 - i        for k in range(n):            if (k == i or k == j):                print("*",end=" ")            else:                print(" ",end=" ")        print()
